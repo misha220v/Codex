@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "armor_stand_decorator",
+  "version": "${version}",
+  "name": "Armor Stand Decorator",
+  "description": "Equips a configured item onto armor stands with one click in Creative mode.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.example.armorstanddecorator.ArmorStandDecoratorClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
